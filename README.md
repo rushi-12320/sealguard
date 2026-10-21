@@ -18,9 +18,8 @@ Type your name in the **Operator** box (top right): approvals, labels, policy ch
 
 ## Demo
 
-**Live demo:** Not deployed yet. To create a public demo after pushing this repository to GitHub, sign in to Render,
-choose **New → Blueprint**, and select this repository. Render will read `render.yaml` and create the free,
-read-only demo service. Once deployment succeeds, add the service's `https://...onrender.com` URL here.
+**Live demo:** [https://sealguard-demo.onrender.com](https://sealguard-demo.onrender.com). The public Render
+service is created from this repository's `render.yaml` Blueprint and deploys automatically when changes are pushed.
 
 Render's free web service sleeps after 15 minutes without traffic and loses local filesystem changes when it sleeps
 or redeploys. The SQLite database is in `/tmp`; the demo starts with generated sample data and must not be used for
