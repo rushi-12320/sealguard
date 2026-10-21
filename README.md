@@ -21,6 +21,8 @@ Type your name in the **Operator** box (top right): approvals, labels, policy ch
 **Live demo:** [https://sealguard-demo.onrender.com](https://sealguard-demo.onrender.com). The public Render
 service is created from this repository's `render.yaml` Blueprint and deploys automatically when changes are pushed.
 
+[Download the 60-second narrated explainer video (MP4)](https://github.com/rushi-12320/sealguard/raw/refs/heads/main/media/SealGuard_Explainer.mp4).
+
 Render's free web service sleeps after 15 minutes without traffic and loses local filesystem changes when it sleeps
 or redeploys. The SQLite database is in `/tmp`; the demo starts with generated sample data and must not be used for
 real inspection data. The public service is unauthenticated; writes are disabled by `SEALGUARD_READ_ONLY=true`.
