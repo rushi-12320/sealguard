@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.env
+.env.*
+!.env.example
+data/*
+!data/.gitkeep
+*.db
+*.db-shm
+*.db-wal

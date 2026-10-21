@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: sealguard-demo
+    runtime: docker
+    plan: free
+    region: ohio
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/health
+    envVars:
+      - key: SEALGUARD_DB
+        value: /tmp/sealguard.db
+      - key: SEALGUARD_READ_ONLY
+        value: "true"
